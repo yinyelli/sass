@@ -1,0 +1,52 @@
+header{
+    width: 100%;
+    height: auto;
+    background-color:$bg-header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: sticky;
+    top: 0;
+    .logo{
+      width: 100%;
+      height: auto;
+      a{
+       img{
+        width: 30%;
+        height: auto;
+        background-size: contain;
+        border-radius: 50%;
+       }  
+     }
+    }
+    .tracking-in-contract-bck-bottom {
+      -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) ;
+              animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) ;
+        width: 100%;
+        font-family:$font-family-title;
+        color:$color-text;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 24px;
+    }
+    nav{
+        width: 100%;
+        margin: 1rem;
+        ul{
+          @include flex(row,center,center,1rem);
+            list-style: none;
+            gap: 1rem;
+        li{
+            a{
+              text-decoration: none;
+              font-family:$font-family-text;
+              color:$color-text;
+              &:hover{
+                text-decoration: overline;
+              } 
+            }
+        }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+.main-inicio{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color:$bg-main;
+    .h2-sobre-mi{
+        width: 100%;
+        height: auto;
+        background-color:$bg-h2;
+
+        h2{
+            width: 100%;
+            font-family:$font-family-title;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+        }
+    }
+    p{
+        width: 100%;
+        padding: 1rem;
+        font-family:$font-family-text;
+        font-size: 16px;
+        text-align: center;
+    }
+    .button-inf{
+        a{
+            &:hover{
+                text-decoration: overline;
+            }
+            button{
+            border-radius:4px;
+            cursor: pointer;
+            padding: 5px 10px;
+            }
+        }
+    }
+    .img-sobre-mi{
+        margin-left: 40%;
+        img{
+            width: 40%;
+            height: 40%;
+            border-radius: 35%;
+        }
+    }
+    .p-direccion{
+        width: 100%;
+        height: auto;
+        font-family:$font-family-text;
+        text-align: center;
+    }
+    .h2_ppda{
+        width: 100%;
+        height: auto;
+        background-color: $bg-h2;
+        font-family:$font-family-title;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.25rem;
+    }
+    .section_ppda{
+        width: 100%;
+        iframe{
+            width: 70%;
+            height: 100%;
+            margin: 1rem;
+            padding: 1rem;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+    }
+
+}
+
+
+.main-servicios{
+    width: 100%;
+    height: 62.5rem;
+    background-color:$bg-main;
+    .h2-servicios{
+        width: 100%;
+        height: auto;
+        background-color:$bg-h2;
+        h2{
+            width: 100%;
+            font-family:$font-family-title;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+        }
+    }
+    .producto-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 1.25rem;
+        gap: .625rem;
+    }
+    .map-container{
+        padding-bottom: 56.25%;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        gap: 50%;
+    }
+}

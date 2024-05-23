@@ -1,0 +1,33 @@
+@media (max-width:425px){
+
+    header{
+        width: 100%;
+        height: auto;
+        @include flex(column, center, center, 1rem)
+    }
+    .main-inicio{
+        .img-sobre-mi{
+            width: 100%;
+            margin-right: 40px;
+            img{
+                width: 50%;
+                height: 50%;
+                border-radius: 35%;
+            }
+        }
+    }
+    .main-servicios{
+        width: 100%;
+        height: auto;
+    .producto-container{
+        width: 100%;
+        @include flex(column, center, center, 1rem)
+    }
+    .map-container{
+        @include flex(column, center, center, 1rem)
+    }
+    iframe{
+        width: 100%;
+    }
+}
+}
